@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F0F4F8; /* Android background color */
+}
+
+.phone-container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 320px; /* Simulate phone width */
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #1A237E; /* Android text color */
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Simulate useDefaultMargins */
+    justify-items: center;
+}
+
+.app-button {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    width: 120px; /* Android button width */
+    height: 120px; /* Android button height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-button:hover {
+    background-color: #d0d0d0;
+}
+
+.app-button img {
+    width: 48px; /* Icon size */
+    height: 48px;
+    margin-bottom: 8px;
+}
